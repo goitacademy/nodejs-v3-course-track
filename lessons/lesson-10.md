@@ -9,7 +9,7 @@
 ## Аватар користувача
 
 - Додати властивість `avatar` до моделі `User`
-- `assets/default-avatar.jpg` — аватар за замовчуванням якщо користувач не завантажив свій
+- `https://ac.goit.global/fullstack/react/default-avatar.jpg` — аватар за замовчуванням якщо користувач не завантажив свій
 - Маршрут `PATCH /users/me/avatar`
 - Бібліотека [`multer`](https://www.npmjs.com/package/multer) — обробка `multipart/form-data`
   - Збереження файлів у пам'ять через `memoryStorage`
