@@ -25,14 +25,10 @@
 - Функція завантаження файлу на Cloudinary — отримати URL завантаженого зображення
 - Використання функції у контролері — зберегти URL в полі `avatar` користувача
 
-## Стартові файли у проєкті
-
-- `assets/default-avatar.jpg` — аватар за замовчуванням
-
 ## Послідовність заняття
 
 1. Пояснити `multipart/form-data` — показати різницю з JSON через Postman
-2. Додати поле `avatar` до моделі `User` з дефолтним значенням з `assets/default-avatar.jpg`
+2. Додати поле `avatar` до моделі `User` з дефолтним значенням `https://ac.goit.global/fullstack/react/default-avatar.jpg`
 3. Створити маршрут `PATCH /users/me/avatar`
 4. Встановити та налаштувати `multer` з `memoryStorage`
 5. Підключити middleware до маршруту — показати `req.file` у контролері
