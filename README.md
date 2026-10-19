@@ -6,7 +6,7 @@
 
 Натисни **Use this template** на GitHub щоб створити власний репозиторій з цього шаблону.
 
-Перед кожним заняттям відкрий план у папці `lessons/` та створи нову гілку:
+Перед кожним заняттям відкрий план заняття `lessons/lesson-NN/plan.md` та створи нову гілку:
 
 ```bash
 git checkout -b lesson-01
@@ -43,4 +43,6 @@ git checkout -b lesson-02
 
 ## Ресурси
 
-- `assets/cars.json` — масив даних автомобілів для заняття 1
+Матеріали кожного заняття лежать у `lessons/lesson-NN/assets/`.
+
+- `lessons/lesson-01/assets/cars.json` — масив даних автомобілів для заняття 1
