@@ -32,9 +32,13 @@
 - Оновити `PATCH /students/:studentId` — те саме
 - Оновити `DELETE /students/:studentId` — те саме
 
+## Матеріали
+
+- [`assets/token-rotation.jpg`](assets/token-rotation.jpg) — ротація токенів: оновлення сесії через `POST /auth/refresh`
+
 ## Послідовність заняття
 
-1. Реалізувати `POST /auth/refresh` — знайти сесію, перевірити токен, створити нову сесію
+1. Реалізувати `POST /auth/refresh` — знайти сесію, перевірити токен, створити нову сесію, показати схему `token-rotation.jpg`
 2. Написати middleware аутентифікації — перевірка `accessToken`, додавання `req.user`
 3. Підключити middleware до маршрутів `/students`
 4. Додати `userId` до моделі `Student`

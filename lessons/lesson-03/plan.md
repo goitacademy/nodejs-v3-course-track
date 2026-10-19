@@ -44,9 +44,14 @@
 - `createHttpError(404, "Not found")` — замість ручного `res.status(404).json(...)`
 - Оновлення middleware обробки помилок — отримати `status` та `message` з об'єкта помилки
 
+## Матеріали
+
+- [`assets/sql.jpg`](assets/sql.jpg) — як працює SQL база даних
+- [`assets/nosql.jpg`](assets/nosql.jpg) — як працює NoSQL база даних на прикладі MongoDB
+
 ## Послідовність заняття
 
-1. Пояснити що таке бази даних і чому MongoDB
+1. Пояснити що таке бази даних і чому MongoDB — показати схеми `sql.jpg` та `nosql.jpg`
 2. Створити кластер в MongoDB Atlas, підключити MongoDB Compass
 3. Підключити Mongoose до проєкту — `mongoose.connect`
 4. Пояснити модель даних — документ, поле, колекція, `_id`

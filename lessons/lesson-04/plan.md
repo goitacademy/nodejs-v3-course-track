@@ -49,11 +49,15 @@
 - PUT = PATCH + POST
 - Метод `Model.findOneAndUpdate()` з опцією `upsert: true`
 
+## Матеріали
+
+- [`assets/http-req.jpg`](assets/http-req.jpg) — анатомія HTTP-запиту: стартовий рядок, заголовки, тіло
+
 ## Послідовність заняття
 
 1. Реалізувати `GET /students` — отримати всі документи
 2. Реалізувати `GET /students/:studentId` — отримати документ за ID, обробити 404
-3. Реалізувати `POST /students` — створити документ через `Model.create()`
+3. Реалізувати `POST /students` — створити документ через `Model.create()`, показати схему `http-req.jpg`
 4. Реалізувати `DELETE /students/:studentId` — видалити через `Model.findOneAndDelete()`
 5. Реалізувати `PATCH /students/:studentId` — часткове оновлення через `Model.findOneAndUpdate()`
 6. Реалізувати `PUT /students/:studentId` — повне оновлення з `upsert: true`
