@@ -38,6 +38,7 @@
 
 - [`assets/nodejs.jpg`](assets/nodejs.jpg) — схема роботи Node.js: V8, цикл подій, пул потоків libuv
 - [`assets/cjs-vs-esm.jpg`](assets/cjs-vs-esm.jpg) — різниця між CommonJS та EcmaScript модулями
+- [`assets/http-request.jpg`](assets/http-request.jpg) — структура HTTP-запиту: метод, URL, версія протоколу, заголовки, куки, тіло
 
 ## Послідовність заняття
 
@@ -46,6 +47,6 @@
 3. Розібрати `process.env` та `import.meta.url`
 4. Показати `node:path` — побудова шляху до `assets/cars.json`
 5. Прочитати `assets/cars.json` через `fs.promises.readFile`
-6. Пояснити архітектуру клієнт-сервер — клієнт, сервер, HTTP-методи, статуси, заголовки
+6. Пояснити архітектуру клієнт-сервер — клієнт, сервер, HTTP-методи, статуси, заголовки, показати схему `http-request.jpg`
 7. Показати `query params` на прикладі — `?brand=BMW&type=SUV`
 8. Демонстрація через Postman — надіслати GET запит та переглянути відповідь
