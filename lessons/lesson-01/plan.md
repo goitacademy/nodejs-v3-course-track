@@ -37,6 +37,7 @@
 ## Матеріали
 
 - [`assets/nodejs.jpg`](assets/nodejs.jpg) — схема роботи Node.js: V8, цикл подій, пул потоків libuv
+- [`assets/cjs-vs-esm.jpg`](assets/cjs-vs-esm.jpg) — різниця між CommonJS та EcmaScript модулями
 
 ## Послідовність заняття
 
